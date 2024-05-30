@@ -162,3 +162,9 @@
     font-weight: 900;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 25px 0;
+}
