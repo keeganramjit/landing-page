@@ -24,6 +24,7 @@
 .nav .logo a {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .nav li a {
@@ -33,13 +34,32 @@
 }
 
 .media {
-    padding: 50px 0;
+    padding: 100px 0;
     display: flex;
 }
 
 .description {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.description p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    align-self: flex-start;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
 
