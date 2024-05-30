@@ -36,6 +36,7 @@
 .media {
     padding: 100px 0;
     display: flex;
+    gap: 100px;
 }
 
 .description {
@@ -59,8 +60,9 @@
     color: #f9faf8;
     align-self: flex-start;
     border: none;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .card-section {
@@ -96,6 +98,28 @@
     display: flex;
     gap: 40px;
     justify-content: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 
